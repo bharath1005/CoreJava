@@ -9,14 +9,17 @@ package org.Test;
    void bark() {
         System.out.println("Barking");
 		}
+   
+   void lick() {
+	System.out.println("Licking");
+
+}
    		public static void main(String[] args) {
 			Dog d=new Dog();
 			d.eat();
 			d.bark();
-			
-			
-		}
-
+			d.lick();
+	}
 }
 }
  
